@@ -1,0 +1,10 @@
+{
+  "resourceName": "approvedarticles",
+  "tableName": "approvedarticles",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

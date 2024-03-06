@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "paths": {
+    "/news": {
+      "name": "/news",
+      "lambdaFunction": "sampleappacebcf9d",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    },
+    "/approve": {
+      "name": "/approve",
+      "lambdaFunction": "sampleappacebcf9d",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
